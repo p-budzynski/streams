@@ -1,0 +1,7 @@
+
+Stwórz strumień 1000 kolejnych liczb typu double zaczynając od 1, następnie:
+- przefiltruj strumień tak, żeby mieć tylko liczby parzyste;
+- przemapuj liczby tak, aby każda była tylko połową swoje wcześniejszej wartości;
+- jeszcze raz przefiltruj strumień tak, aby otrzymać liczby parzyste
+- ogranicz strumień tak, aby zawierał tylko 100 elementów, ale z pominięciem pierwszych 50 elementów.
+- zwróć listę tych liczb.

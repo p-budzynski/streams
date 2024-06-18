@@ -1,0 +1,8 @@
+
+Wygeneruj 1000 pracowników.
+- przefiltruj strumień tak, aby zostali tylko pracownicy z pensją niższą lub równą 10 000 zł;
+- podwyższ im pensję o 20%;
+- usuń zduplikowanych pracowników;
+- posortuj ich zgodnie ze strategią pensja malejąco -> nazwisko alfabetycznie -> imię alfabetycznie
+- umieść ich w LinkedHashSet.;
+- policz ich;

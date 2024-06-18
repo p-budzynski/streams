@@ -1,0 +1,12 @@
+Metody pośrednie:
+filter() - filtruje strumień zgodnie z predykatem, zwraca przefiltrowany strumień:
+map() – przekształca elementy strumienia zgodnie z przekazaną funkcją, zwraca strumień z przekształconymi obiektami:
+limit(n) – zwraca strumień z n ilością początkowych elementów:
+distinct() – zwraca strumień pozbawiony duplikatów:
+sorted() – zwraca uporządkowany strumień zgodnie z naturalnym porządkiem (Comparable, Comparator):
+peek() – wykonuje pewną czynność na wszystkich elementach, ale zwraca nowy strumień bez żadnych modyfikacji względem starego.
+Metodę peek() można wykonywać po dowolnej metodzie pośredniej.
+skip(n) – metoda pozwalająca pominąć  n pierwszych elementów strumienia.
+boxed() – metoda przekształcająca strumień prymitywów w strumień obiektów:
+flatMap() – jeżeli w strumieniu przechowywane są tablice lub kolekcje obiektów to ta metoda spłaszcza structure strumienia np z Stream<Car[]> na Stream<Car>:
+
