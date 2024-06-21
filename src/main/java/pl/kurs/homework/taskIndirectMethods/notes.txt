@@ -1,4 +1,5 @@
 Metody pośrednie:
+
 filter() - filtruje strumień zgodnie z predykatem, zwraca przefiltrowany strumień:
 map() – przekształca elementy strumienia zgodnie z przekazaną funkcją, zwraca strumień z przekształconymi obiektami:
 limit(n) – zwraca strumień z n ilością początkowych elementów:

@@ -1,7 +1,7 @@
 package pl.kurs.homework.task2.app;
 
 import pl.kurs.homework.task2.model.Employee;
-import pl.kurs.homework.task2.service.EmployeesGenerator;
+import pl.kurs.homework.task2.service.EmployeeGenerator;
 
 import java.util.Comparator;
 import java.util.LinkedHashSet;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        EmployeesGenerator generator = new EmployeesGenerator();
+        EmployeeGenerator generator = new EmployeeGenerator();
 
         List<Employee> employees = generator.generateEmployeesList(1000);
 
@@ -26,9 +26,8 @@ public class Main {
         System.out.println("Number of processed employees: " + processedEmployees.stream()
                 .count());
 
-        for (Employee employee : processedEmployees) {
-            System.out.println(employee);
-        }
+        processedEmployees
+                .forEach(System.out::println);
 
     }
 }

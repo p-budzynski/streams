@@ -1,0 +1,6 @@
+Zadanie 3
+
+Wygeneruj sobie 100 samochodów  (klasy Car(producer(tylko jeden np BMW), model, engine) oraz Engine(power, torque, displacement, description))
+- przefiltruj strumień tak, aby zostały tylko najmocniejsze z mocą ponad 300 KM, z silnikami nie mniejszymi niż 2.0 litry i nie większymi niż 4.0 litry pojemności;
+- usuń duplikaty;
+-zwróć auto z najefektywniejszym silnikiem (najlepszy stosunek mocy do pojemności czyli największa moc z jednego litra)

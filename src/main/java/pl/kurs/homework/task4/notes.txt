@@ -1,0 +1,7 @@
+Zadanie 4
+
+Wygeneruj 10 list uczniów (imię, nazwisko,  rok urodzenia (int), ocena z zachowania (ocena ma być enumem)).
+Każda lista ma mieć po 20 uczniów.
+- policz jakiego rocznika jest najwięcej uczniów, a jakiego najmniej.
+- sprawdź ile uczniów posiada dane zachowanie.
+-sprawdź ilu jest uczniów o tym samym imieniu i nazwisku.
