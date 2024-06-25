@@ -38,7 +38,6 @@ public class CarGenerator {
     }
 
     private double roundToOneDecimalPlace(double value) {
-        BigDecimal bigDecimal = new BigDecimal(value).setScale(1, RoundingMode.HALF_UP);
-        return bigDecimal.doubleValue();
+        return (double) Math.round(value * 100) / 100;
     }
 }
